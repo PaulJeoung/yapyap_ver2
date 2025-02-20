@@ -9,12 +9,12 @@ import { singlePage } from '../info/Info';
 
 const links = [
     {
-        name: 'Home',
+        name: '🏠 홈으로',
         to: '',
         active: 'home'
     },
     {
-        name: 'About Me',
+        name: '👨🏽‍💻 저는요',
         to: 'about',
         active: 'about'
     },
@@ -25,12 +25,12 @@ const links = [
         active: 'home'
     },
     {
-        name: 'Others',
+        name: '💯 잘하고싶어',
         to: 'others',
         active: 'others'
     },
     {
-        name: 'Portfolio',
+        name: '📺 포트폴리오',
         to: 'portfolio',
         active: 'portfolio'
     }
