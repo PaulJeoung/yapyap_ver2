@@ -6,6 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { Box } from "@mui/material";
 import { info } from "../info/Info";
 import { singlePage } from '../info/Info';
+import { Margin } from '@mui/icons-material';
 
 const links = [
     {
@@ -64,7 +65,7 @@ export default function Navbar({ darkMode, handleClick, active, setActive }) {
                         </Link>
                     </Box>
                 ))}
-                <li>
+                <li className='me-3'>
                     <Toggler darkMode={darkMode} handleClick={handleClick} />
                 </li>
             </Box>
