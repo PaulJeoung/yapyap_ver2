@@ -18,7 +18,7 @@ export default function Home({innerRef}) {
          <Box>
             <h1>안녕하세요.<br/>제 이름은 <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span> 입니다. <span className={Style.hand}>🤚</span>
             </h1>
-            <h2>저는 {info.position} 가 되고 싶습니다.</h2>
+            <h2>저는 <span style={{color : 'gray'}}>{info.position}</span> 로 시작해서 풀스택개발자로 성장 하려고 합니다.</h2>
             <Box component={'ul'} p={'0.8rem'}>
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>

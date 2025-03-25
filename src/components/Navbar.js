@@ -1,21 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
+// import React, { useState } from 'react';
 import Style from './Navbar.module.scss';
 import Toggler from "./home/Toggler";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 import { Box } from "@mui/material";
 import { info } from "../info/Info";
 import { singlePage } from '../info/Info';
-import { Margin } from '@mui/icons-material';
+// import { Margin } from '@mui/icons-material';
 
 const links = [
     {
-        name: '🏠 홈으로',
+        name: '🚀 시작',
         to: '',
         active: 'home'
     },
     {
-        name: '👨🏽‍💻 저는요',
+        name: '👨🏽‍💻 저는',
         to: 'about',
         active: 'about'
     },
@@ -26,7 +27,7 @@ const links = [
         active: 'home'
     },
     {
-        name: '💯 잘하고싶어',
+        name: '💯 경력 & 교육',
         to: 'others',
         active: 'others'
     },

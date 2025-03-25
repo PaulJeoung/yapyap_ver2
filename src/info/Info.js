@@ -3,7 +3,7 @@ import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+// import mock5 from "../img/mock5.png"
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 export let singlePage = false;
@@ -11,19 +11,19 @@ export let singlePage = false;
 export const info = {
     firstName: " 정병오",
     lastName: "pauljeoung",
-    initials: "PJ",
-    position: "Backend Developer",
+    initials: "🧐",
+    position: "서버개발자",
     selfPortrait: self,
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
     miniBio: [
         {
             emoji: '🏠',
-            text: '딸바보 아빠'
+            text: '집에서는 딸바보'
         },
         {
             emoji: '🌎',
-            text: '경기도 용인시 처인구 한터로 55-30'
+            text: '용인시 처인구 한터로 55-30'
         },
         {
             emoji: "💼",
@@ -32,7 +32,7 @@ export const info = {
         {
             emoji: "📧",
             text: "kuni05@naver.com"
-        }
+        },
     ],
     socials: [ // https://fontawesome.com/v4/icons/
         {
@@ -68,25 +68,21 @@ export const info = {
 
     ],
     bio: `
-        저는 지난 10여 년간 검증과 운영 분야에서 폭넓은 도메인 지식과 실무 경험을 쌓아왔습니다. 특히, 모바일 Gateway API 연결을 위한 컨트롤러 프로토타입 개발을 통해 스마트월렛의 상용화에 기여한 바 있습니다. 
+        저는 QA와 운영 경험을 가진 서버·클라이언트 초급 개발자입니다.
+        다양한 도메인의 개발 조직에서 개발 QA로서 프로젝트의 모든 과정을 경험했으며, 설계부터 개발, 디버깅, 테스트, 출시까지 빠르게 적응할 수 있는 역량을 갖추고 있습니다.
 
-        검증 분야에서는 IP 전화기부터 모바일 기기에 이르는 네트워크 및 기능 검증을 수행했으며, 해외 현지에서의 필드 테스트 및 성능 테스트도 주도적으로 진행했습니다.
-        또한, Syrup, 11번가, T-map과 같은 웹/모바일 플랫폼서비스는 물론, LINE의 광고정산시스템과 블록체인 기반의 스마트컨트랙트 검증 등 다양한 도메인의 프로젝트에 참여했습니다. 그중 블록체인 도메인에서 앱 자동화 구축, DeFi 시스템 내에 트레이딩 시뮬레이터 봇 개발 등의 경험을 통해 신기술 트렌드를 빠르게 습득하고 적용할 수 있는 능력을 키웠습니다.
-        그리고 운영 분양에서는 SKT 기지국 테스트베드 운영업무를 약 1년 반 동안 맡아 펌웨어 업데이트 및 서버 에러 로그 수집 등의 업무를 체계적으로 수행했습니다.
+        개발 직군에서 QA 업무를 수행하며 컴퓨터과학과에 편입하여 소프트웨어 공학의 기초를 다졌고, IT 교육기관에서 꾸준히 학습하며 개발 언어와 프로그래밍 기본기를 익혔습니다. 이를 바탕으로 사내 결제 시스템 개발과 모바일 Gateway API의 일부 컨트롤러 모듈 개발에 참여하며 개발 경험을 쌓아왔습니다.
+        이처럼 개발 경험을 쌓아왔지만, 10여 년간 QA 업무에 기여해 왔으며, 개발에 대한 열정이 더욱 커져 개발자로의 직무 전환을 결심했습니다.
 
-        최근 6개월 동안은 직업훈련을 통해 빠르게 변화하는 개발 환경에 다시 적응하기 위해 노력했습니다. Java와 Spring을 활용한 백엔드 개발 역량을 강화했으며, JSP, Servlet 등 레거시 기술에 대한 이해도도 높였습니다. 또한, React와 Bootstrap을 활용한 프론트엔드 개발도 병행하며 HTML5, CSS3, JavaScript를 이용한 UI/UX 구현 경험을 쌓았습니다.
-        
-        직업훈련과정 중 진행한 쇼핑몰 구축 팀 프로젝트에서는 조장으로서 기획부터 설계, 개발, 일정 관리, 테스트, 출시까지 전 과정을 주도적으로 이끌었습니다. 특히, 실제 개발 환경을 최대한 반영하며 소스 코드 충돌 관리와 리팩토링을 통해 협업 능력과 문제 해결 능력을 크게 향상시키고자 노력 했습니다. 
-        하지만, 기획 부터 개발까지 4주 남짓한 짧은 기간동안 각 환경 등을 나누어 개발 하지 못하고 결제시스템과 고객데이터를 확인 하는 CRM 어드민 모듈까지 제대로 구현 하지 못한 건 많은 아쉬움이 남았습니다.
+        작년 한해 저는 직업 훈련을 통해 개발자 양성과정 교육을 수료하며 Java와 Spring Boot를 활용한 서버 개발 역량을 강화했을 뿐만 아니라, JSP와 Servlet 등 레거시 기술에 대한 이해도도 높였습니다. 또한, React와 Bootstrap을 활용한 클라이언트 개발 경험을 통해 서버와 클라이언트 간 상호작용의 중요성을 깊이 이해하게 되었습니다.
 
-        이제는 백엔드 개발자로서 새로운 도전에 나서고자 합니다. 그동안 쌓아온 IT 경험을 바탕으로 빠르게 업무에 적응하고 기본에 충실한 개발자가 되겠습니다. 
-        또한, 가정을 책임지는 아빠로서의 책임감을 바탕으로 팀 내 소통과 협업에 적극적으로 참여하며, 항상 일정 내에 완성도 높은 결과물을 만들어내는 신뢰받는 개발자가 되겠습니다.
-        끊임없이 공부하고 성장하며, 팀의 성공에 기여할 수 있는 개발자로 자리매김하고 싶습니다.
+        현재 부족한 부분들은 다양한 교육과 오픈소스 커뮤니티 참여를 통해 지속적으로 학습하고 실습하며 역량을 키워가고 있습니다. 팀 내에서는 소통을 중시하며, 완성도 높은 제품을 만들기 위해 노력하는 개발자가 되고자 합니다.
+        궁극적으로 팀과 제품의 성공에 기여하는 것뿐만 아니라, 다양한 커뮤니티에서도 제가 가진 노하우를 공유하며 기여할 수 있는 성숙한 개발자로 성장하는 것이 저의 목표입니다.
     `,
     skills:
         {
-            proficientWith: ['java', 'spring', 'MySQL', 'python', 'javascript', 'react', 'bootstrap', 'html5', 'css3', 'nodejs'],
-            exposedTo: ['github', 'tortoise svn', 'bitbucket', 'gradle', 'maven', 'ui path', 'slack', 'notion', 'jira', 'trello', 'wiki', 'testrail', 'postman', 'jmeter']
+            proficientWith: ['Java', 'Spring Boot', 'Python', 'Javascript', 'React.js', 'Bootstrap', 'HTML5', 'CSS3'],
+            exposedTo: ['Github', 'Tortoisesvn', 'Nexus', 'Gradle', 'Maven', 'UIPath', 'Selenium', 'Appium', 'Postman', 'JMeter', 'Trello', 'Jira', 'Testrail' ]
         }
     ,
     hobbies: [
@@ -95,7 +91,7 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: '와이프랑 한잔하며 넷플릭스 보기',
+            label: '와이프랑 한잔하며 OTT 보기',
             emoji: '🍻📼'
         },
         {
@@ -110,77 +106,148 @@ export const info = {
     ],
     expriences: [
         {
+            company: `
+                회사 | 코이닉스 (2017.10 ~ 2018.05, 프리랜서)
+                `,
+            task: `
+
+                프로젝트명 | Telkomsel twallet 프로토타입 모듈 개발 (2017.10 ~ 2018.01)
+                
+                주요업무 : Mobile Gateway API 의 스마트 월렛 컨트롤러 개발
+
+                1️⃣ inbox, profile, setting 모듈의 API 컨트롤러 개발
+                2️⃣ 유저와 HCE 카드 데이터 연동 지원
+                
+                업무성과 : telkomsel twallet v2.0 출시
+
+                -------------------------
+            `
+        },
+        {
+            company: `
+                회사 | 모지도코화이어코리아 (2015.06 ~ 2017.09 / 과장)
+                `,
+            task: `
+
+                프로젝트명 | twMP 모바일지갑 프로토타입 모듈 개발 (2015.10 ~ 2015.12)
+
+                주요업무 : Mobile Gateway API 의 스마트 월렛 컨트롤러 개발
+
+                1️⃣ inbox, profile 모듈의 API 컨트롤러 개발
+                2️⃣ mobile 유저 데이터와 Admin 시스템 데이터 연동 지원
+                
+                업무성과 : twMP 스마트월렛 플레이스토어 출시
+            `
+        },
+        {
+            company: `
+                `,
+            task: `
+                프로젝트명 | 사내 결재 시스템 개발 및 유지보수 계약 (2015.06 ~ 2017.09)
+
+                주요업무 : 사내 시스템 Serena Business Management (PLM) 구축 및 개발, 유지 보수
+
+                1️⃣ 사내 결재 시스템 프로세스 구축 및 개발
+                2️⃣ PLM (사내 운영시스템) 유지 보수 및 계약
+                
+                업무성과 : 사내 결재 및 휴가 관리 시스템 구축
+            `
+        },
+    ],
+    carrerpath: [
+        {
             company: '크립티드 (2022.09 ~ 2024.04)',
             task: `
-                주요업무 : 블록체인 서비스 개발 검증 및 자동화 구축
-                ㄴ 블록체인 기반 메인넷 웹/앱 어플리케이션 검증
-                ㄴ defi 금융시스템 개발 검증, 테스트환경 내 트레이딩 봇 가격자동화 시스템 구축
+                
+                주요 업무) 블록체인 기반의 자체 코인 서비스 검증 및 테스트
+                기술 스택 및 도구) : python, selenium, appium, vscode, postman, jmeter
+
+                1. 블록체인 기반 검색, 송금 웹 플랫폼 검증 (2023.01 ~ 2024.04)
+                2. 블록체인 기반 메인넷 지갑 어플리케이션 검증 (2023.01 ~ 2024.04)
+                3. 메인넷을 이용한 DeFi 플랫폼 검증 (2023.01 ~ 2024.04)
             `
         },
         {
             company: '솔메소프트 (2021.03 ~ 2022.09)',
             task: `
-                주요업무 : SKT 기지국 테스트베드 펌웨어 패지 작업 및 테스트 환경 운영
-                ㄴ LTE/NR 기지국 테스트 환경 구축 (파라메터 수정 및 시스템 디버깅)
-                ㄴ 서버 별 로그 수집 및 통계 분석
-                ㄴ 기지국 펌웨어 긴급 패치 작업
+                
+                주요 업무) SKT 테스트 베드의 테스트 환경 구성 지원 및 주/야간 기지국 펌웨어 업데이트 지원
+                기술 스택 및 도구) linux, shell script, teraterm, filezilla
+
+                1. SKT 테스트베드망 LTE/NR 기지국 시스템 운영 (2021.04 ~ 2022.09)
             `
         },
         {
             company: '티벨 (2020.05 ~ 2021.03)',
             task: `
-                주요업무 : 고객사(LINE) 광고 정산 시스템 기능 검증 및 서버 API 검증
-                ㄴ 광고정산시스템 기능 및 서버 API 검증
-                ㄴ 고객사와의 테스트 일정 기간 협의 및 커뮤니케이션
+                
+                주요 업무) 고객사(LINE)의 정산 시스템의 테스트 및 업무 협의
+                기술 스택 및 도구) postman, testrail, jira
+
+                1. 고객사의 광고 정산 시스템(LINE JP)의 신뢰성 및 정합성 검토 (2020.05 ~ 2021.03)
             `
         },
         {
-            company: 'BTI Solutions (2018.10 ~ 2020.03)',
+            company: 'BTIsolutions (2018.10.08 ~ 2020.03.09)',
             task: `
-                주요업무 : SEA(삼성) 미주 단말기 Verizon, T-mobile 필드 테스트 및 안드로이드 인증 시험 진행
-                ㄴ J1 트레이닝 비자 신분으로 1년 6개월간 미국 뉴저지에 거주 하며 근무
-                ㄴ Samsung Device Field Verification Test 및 스마트폰 상용화 (NJ 상주)
-                ㄴ 데이터 부하 Testing, Log trace, 상용 바이너리 입고 작업
-                ㄴ 인턴 직무기초 교육 (네트워크 기초 및 테스트 장비 사용 방법)
+                
+                주요 업무) 필드테스트 및 펌웨어 확인, 구글인증 업무 지원, 직원 입문 교육
+                기술 스택 및 도구) linux, CTS, VTS
+                ** 참고 : J1 트레이닝 비자 신분으로 1년 6개월간 미국 뉴저지에 거주 하며 근무
+
+                1. Samsung Device Field Verification Test 및 스마트폰 바이너리 적용(NJ 상주)
             `
         },
         {
-            company: '코이닉스 (2017.09 ~ 2018.05)',
+            company: '코이닉스 (2017.10.10 ~ 2018.05.09)',
             task: `
-                주요업무 : 인도네시아 twallet 앱 모바일 게이트웨이 API 컨트롤러 개발 및 검증
-                ㄴ 인도네시아 telkomsel에서 제공하는 twallet 앱의 모바일 게이트웨이 API 컨트롤러 프로토타입 개발 (inbox, profile)
-                ㄴ 결제모듈 (Cloud Payment)와의 API 연동
-                ㄴ 구 버전의 유지 보수 및 전체 앱의 검증
+                
+                주요 업무) 해외 고객사의 모바일 Gateway API 컨트롤러 개발 및 앱 검증, 산출물 문서 작성
+                기술 스택 및 도구) Java, Spring, MySQL, Maven, Nexus, SVN, Postman, Jira
+
+                1. Mobile Gateway API 의 스마트 월렛 컨트롤러 프로토타입 개발 (2017.10 ~ 2018.01)
+                2. Telkomsel twallet 모바일 어플리케이션 검증 (2017.10 ~ 2018.05)
+                3. Telkomsel(고객사)과 업무 협의 (2017.12 ~ 2018.04)
             `
         },
         {
-            company: '모지도코화이어코리아 (2015.06 ~ 2017.09)',
+            company: '모지도코화이어코리아 (2015.06.01 ~ 2017.09.16)',
             task: `
-                주요업무 : 대만 twmp의 스마트월렛 앱 모바일 게이트웨이 API 컨트롤러 개발 및 검증
-                ㄴ 대만은행 연합 twmp에서 제공하는 스마트월렛 앱의 모바일 게이트웨이 API 컨트롤러 프로토타입 개발 (inbox, setting, addonservice)
-                ㄴ 결제모듈 (Cloud Payment)와의 API 연동
-                ㄴ 결제와 관련된 PCI DSS, Master카드 UL 인증 결과 보고서 작성 (결제 보안인증 툴 테스트)
-                ㄴ 개발 산출물 문서 작성 및 관리
-                ㄴ 대만 통신사 ATDC 의 이전 계약 종료를 위한 산출물 작성
+                
+                주요 업무) 사내 인프라 관리, 해외 고객사의 모바일 Gateway API 컨트롤러 개발 및 앱 검증, 산출물 문서 작성
+                기술 스택 및 도구) SBM(PLM도구), MSSQL, Java, Spring, MySQL, Maven, Nexus, SVN, Postman, Jira, PCIDSS 및 UL인증
+
+                1. 사내 인프라 관리 및 유지보수 (2015.06 ~ 2017.09)
+                2. Mobile Gateway API 의 스마트 월렛 컨트롤러 프로토타입 개발 (2015.10 ~ 2015.12)
+                3. twMP twallet 모바일 어플리케이션 검증 (2015.09 ~ 2017.09)
+                4. ADTC(고객사)과 업무 협의 (2015.11 ~ 2016.11)
             `
         },
         {
-            company: '에스케이플래닛 (2012.02 ~ 2014.02)',
+            company: '에스케이플래닛 (2013.02 ~ 2015.02)',
             task: `
-                주요업무 : 사내플랫폼서비스 (11번가, Syrup, T-map)의 개발 검증 및 프로토타입 데이터 시험
-                ㄴ 코덱 별 SIP 세션 연동 검증
-                ㄴ 네트워크 간 데이터 지연 튜닝 테스트
-                ㄴ Vector Streaming Map Layer 레벨 분석 및 테스트
-                ㄴ 배터리 성능 및 효율성 성능 테스트
+                
+                주요 업무) 사내 서비스 플랫폼 들에 대한 개발 사전 검증 및 데이터 수집
+                기술 스택 및 도구) Android Studio, iPhone Utility, Agilent 멀티메터, Wireshark, Jira
+
+                1. Tictoc 2.0 mVoIP sdk 탑재 검증 (2013.02 ~ 2015.02)
+                2. T-map 4.0 VSM sdk 탑재 검증 (2014.10 ~ 2015.02)
+                3. 사내 내재화 과제 업무 지원
+                과제 1) play4me SDK 개발 지원
+                과제 2) Geofence SDK 개발 지원
+                과제 3) One ID Token authentication SDK 개발지원
+                과제 4) UltraSound SDK 개발지원
             `
         },
         {
             company: '아이엔씨엠 (2009.10 ~ 2011.08)',
             task: `
-                주요업무 : IP 전화기 및 모바일 기기의 기능 테스트
-                ㄴ IP 전화기의 기능 검증
-                ㄴ CDMA/WCDMA 단말기의 네트워크 및 Callflow, WIPI, IOT 검증
-                ㄴ 안드로이드 단말기의 GPS 필드 시험
+                
+                주요 업무) 피쳐폰, 스마트폰 모바일 및 IP 전화기 단말기 기능 테스트, 테스트케이스 유지보수
+                기술 스택 및 도구) Eclipse, Wireshark, WIPI Tools, Jira, Yammer
+
+                1. SKB 전용 IP 전화기 기능 검증 및 필드 테스트 (2009.10 ~ 2010.08)
+                2. SKT 전용 3G 피쳐폰, Android 폰 기능 검증 및 필드 테스트 (2010.05 ~ 2011.08)
             `
         },
     ],
